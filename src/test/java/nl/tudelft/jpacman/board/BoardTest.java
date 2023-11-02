@@ -6,6 +6,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+/**
+ * This class contains a set of test methods for testing the functionality of Board class.
+ * It uses JUnit testing framework to verify various aspects of the Board class, including
+ * board setup, size, invariants, and square retrieval.
+ */
 public class BoardTest {
     private Board board;
 

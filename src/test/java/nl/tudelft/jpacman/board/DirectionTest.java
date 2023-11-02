@@ -19,18 +19,32 @@ public class DirectionTest {
         Direction north = Direction.valueOf("NORTH");
         assertThat(north.getDeltaY()).isEqualTo(-1);
     }
+    /**
+     * Test the South direction of the Direction enum.
+     * Verifies that the South direction's deltaY (vertical change) is equal to 1.
+     */
     @Test
     void testSouth() {
         Direction south = Direction.valueOf("SOUTH");
         assertThat(south.getDeltaY()).isEqualTo(1);
     }
+
+    /**
+     * Test the West direction of the Direction enum.
+     * Verifies that the West direction's deltaX (horizontal change) is equal to -1.
+     */
     @Test
-    void testWest(){
+    void testWest() {
         Direction west = Direction.valueOf("WEST");
         assertThat(west.getDeltaX()).isEqualTo(-1);
     }
+
+    /**
+     * Test the East direction of the Direction enum.
+     * Verifies that the East direction's deltaX (horizontal change) is equal to 1.
+     */
     @Test
-    void testEast(){
+    void testEast() {
         Direction east = Direction.valueOf("EAST");
         assertThat(east.getDeltaX()).isEqualTo(1);
     }
