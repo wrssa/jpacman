@@ -29,6 +29,7 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.webjars.npm:before:0.0.1'
     compile "com.google.guava:guava:$guavaVersion"
 
     compileOnly "com.github.spotbugs:spotbugs-annotations:$spotbugsAnnotationsVersion"
